@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Terms of Use · NFC Tap</title>
+<style>
+  :root{
+    --bg:#F6F8FC; --surface:#fff; --border:#E0E6F0; --text:#0C1018; --dim:#59647A;
+    --primary:#2E7DFF; --accent:#0FA894;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{ --bg:#0C1018; --surface:#151B27; --border:#2A3546; --text:#F2F5FA; --dim:#93A0B4;
+      --primary:#5B95FF; --accent:#35E0C8; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;line-height:1.65}
+  .wrap{max-width:760px;margin:0 auto;padding:56px 22px 80px}
+  .brand{display:flex;align-items:center;gap:12px;margin-bottom:34px}
+  .logo{width:44px;height:44px;border-radius:11px;
+    background:linear-gradient(135deg,#2E7DFF,#1B4FCC);flex:none;position:relative}
+  .logo::after{content:"";position:absolute;inset:12px;border-radius:4px;
+    border:2.5px solid #fff;border-left-color:transparent;border-bottom-color:transparent;transform:rotate(45deg)}
+  .brand b{font-size:17px}
+  .brand span{color:var(--dim);font-size:13px;display:block;font-weight:400}
+  h1{font-size:31px;letter-spacing:-.02em;margin:0 0 6px}
+  .updated{color:var(--dim);font-size:14px;margin:0 0 34px}
+  h2{font-size:19px;margin:34px 0 8px;letter-spacing:-.01em}
+  p,li{color:var(--text);font-size:15.5px}
+  .lead{color:var(--dim)}
+  ul{padding-left:22px}
+  li{margin-bottom:7px}
+  a{color:var(--primary)}
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:18px 20px;margin:18px 0}
+  .card b{color:var(--accent)}
+  footer{margin-top:52px;padding-top:22px;border-top:1px solid var(--border);color:var(--dim);font-size:13.5px}
+  footer a{color:var(--dim)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="brand">
+    <div class="logo"></div>
+    <div><b>NFC Tap</b><span>by CLK Company</span></div>
+  </div>
+
+  <h1>Terms of Use</h1>
+  <p class="updated">Last updated: 17 July 2026</p>
+
+  <p class="lead">These terms govern your use of the NFC Tap app ("the app") published by CLK Company. By downloading or using the app, you agree to them.</p>
+
+  <h2>License</h2>
+  <p>We grant you a personal, non-transferable license to use NFC Tap on Apple devices you own or control, in line with the Apple <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noopener">Standard End User License Agreement</a>.</p>
+
+  <h2>Acceptable use</h2>
+  <ul>
+    <li>Use the app only for lawful purposes and with tags you own or are authorized to modify.</li>
+    <li>Do not use the app to clone, forge, or bypass access-control, payment, or identity credentials you do not own.</li>
+    <li>Do not attempt to reverse engineer, resell, or redistribute the app.</li>
+  </ul>
+
+  <h2>Subscriptions &amp; purchases</h2>
+  <p>NFC Tap offers an optional Pro upgrade as auto-renewable subscriptions (weekly, monthly, yearly) and a one-time lifetime purchase.</p>
+  <ul>
+    <li>Payment is charged to your Apple ID at confirmation of purchase.</li>
+    <li>Auto-renewable subscriptions renew automatically unless auto-renew is turned off at least 24 hours before the end of the current period.</li>
+    <li>Your account is charged for renewal within 24 hours before the end of the current period, at the price of the selected plan.</li>
+    <li>You can manage or cancel subscriptions in your Apple ID account settings after purchase.</li>
+    <li>The lifetime purchase is a one-time payment that unlocks Pro features permanently and does not renew.</li>
+    <li>Prices are shown in the app and may vary by region.</li>
+  </ul>
+
+  <h2>Device compatibility &amp; NFC limits</h2>
+  <div class="card">
+    <p style="margin:0"><b>Important:</b> iPhones can only read 13.56&nbsp;MHz NFC tags (such as NTAG213/215/216). Apple's hardware cannot read 125&nbsp;kHz cards or MIFARE Classic tags, and this limitation applies to every iOS app, not just NFC Tap. Some tags may also be read-only or password protected.</p>
+  </div>
+
+  <h2>No warranty</h2>
+  <p>The app is provided "as is" without warranties of any kind. We do not guarantee that every tag will be readable or writable, or that any feature will be uninterrupted or error-free. You are responsible for the tags you write and lock; some actions, such as locking a tag, are permanent.</p>
+
+  <h2>Limitation of liability</h2>
+  <p>To the maximum extent permitted by law, CLK Company is not liable for any indirect or consequential damages, data loss, or damage to tags or devices arising from use of the app.</p>
+
+  <h2>Intellectual property</h2>
+  <p>NFC Tap, its name, logo, and design are the property of CLK Company. All rights reserved.</p>
+
+  <h2>Changes</h2>
+  <p>We may update these terms; the date above will reflect changes. Continued use after an update means you accept the revised terms.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about these terms? Email <a href="mailto:tech@clk.company">tech@clk.company</a>.</p>
+
+  <footer>
+    © 2026 CLK Company · <a href="index.html">NFC Tap</a> · <a href="privacy.html">Privacy Policy</a>
+  </footer>
+</div>
+</body>
+</html>
