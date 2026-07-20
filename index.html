@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Auri — Beautiful Widget Themes for iPhone</title>
+<meta name="description" content="Auri brings 100+ beautiful widget themes to your iPhone home screen and lock screen. Clocks, photos, countdowns, live weather and more.">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #0b0a14; color: #e8e4ff; line-height: 1.6;
+  }
+  .hero {
+    min-height: 80vh; display: flex; flex-direction: column;
+    align-items: center; justify-content: center; text-align: center;
+    padding: 56px 24px;
+    background:
+      radial-gradient(ellipse 90% 40% at 50% 8%, rgba(139,123,240,.28), transparent),
+      radial-gradient(ellipse 70% 32% at 22% 42%, rgba(100,232,184,.16), transparent),
+      radial-gradient(ellipse 60% 28% at 78% 34%, rgba(255,157,230,.14), transparent),
+      linear-gradient(180deg, #0b0a14 0%, #171233 60%, #0b0a14 100%);
+  }
+  .logo {
+    width: 100px; height: 100px; border-radius: 24px; margin-bottom: 26px;
+    background: linear-gradient(160deg, #171233, #241b4d);
+    box-shadow: 0 12px 48px rgba(139,123,240,.35);
+    overflow: hidden; position: relative;
+  }
+  .logo::before {
+    content: ""; position: absolute; inset: 0;
+    background:
+      radial-gradient(ellipse 130% 24% at 50% 34%, rgba(139,123,240,.9), transparent),
+      radial-gradient(ellipse 120% 18% at 50% 55%, rgba(255,157,230,.65), transparent),
+      radial-gradient(ellipse 130% 20% at 50% 74%, rgba(100,232,184,.75), transparent);
+  }
+  h1 { font-size: clamp(42px, 8vw, 74px); font-weight: 800; letter-spacing: -1.5px; }
+  .tagline { font-size: clamp(18px, 3vw, 23px); color: #b8aef5; margin: 12px 0 10px; }
+  .sub { color: #8a82b8; max-width: 540px; font-size: 15px; }
+  .cta {
+    margin-top: 34px; display: inline-block; padding: 15px 34px;
+    background: #8b7bf0; color: #fff; border-radius: 16px;
+    font-weight: 700; text-decoration: none; font-size: 16px;
+    box-shadow: 0 8px 32px rgba(139,123,240,.4);
+  }
+  .cta:hover { background: #9d8ff5; }
+  .soon { margin-top: 12px; font-size: 12px; color: #6e6799; }
+  .features {
+    max-width: 980px; margin: 0 auto; padding: 76px 24px;
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 20px;
+  }
+  .card {
+    background: #14122a; border: 1px solid #241f45;
+    border-radius: 20px; padding: 26px;
+  }
+  .card h3 { font-size: 17px; margin-bottom: 8px; color: #fff; }
+  .card p { font-size: 14px; color: #9a92c8; }
+  .emoji { font-size: 26px; display: block; margin-bottom: 12px; }
+  footer {
+    text-align: center; padding: 44px 24px 60px; color: #7a72a8; font-size: 13px;
+    border-top: 1px solid #1a1633;
+  }
+  footer a { color: #b8aef5; text-decoration: none; margin: 0 8px; }
+  footer a:hover { text-decoration: underline; }
+  .brand { margin-top: 12px; color: #4e4880; }
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="logo"></div>
+  <h1>Auri</h1>
+  <p class="tagline">Make your screen yours.</p>
+  <p class="sub">100+ beautiful widget themes for your iPhone home screen and lock screen.
+  Clocks, photos, countdowns, live weather and more — drag, resize and color every detail.</p>
+  <a class="cta" href="#">Download on the App Store</a>
+  <p class="soon">Coming soon to the App Store</p>
+</section>
+
+<section class="features">
+  <div class="card">
+    <span class="emoji">🎨</span>
+    <h3>100+ hand-crafted themes</h3>
+    <p>Ten curated collections — Noir, Luxe, Pastel Dream, Neon, Earth, Seasons and more. New packs every month.</p>
+  </div>
+  <div class="card">
+    <span class="emoji">👆</span>
+    <h3>True canvas editor</h3>
+    <p>Drag any text exactly where you want it. Pinch to resize, pick colors, toggle shadows. No presets holding you back.</p>
+  </div>
+  <div class="card">
+    <span class="emoji">📸</span>
+    <h3>Photo widgets</h3>
+    <p>Your favorite photo with a live clock, date or weather on top — plus a caption, placed anywhere you like.</p>
+  </div>
+  <div class="card">
+    <span class="emoji">💚</span>
+    <h3>Moments that matter</h3>
+    <p>Days-together counters and event countdowns that update every single day, right on your home screen.</p>
+  </div>
+  <div class="card">
+    <span class="emoji">🌤️</span>
+    <h3>Live weather</h3>
+    <p>Real forecasts for your city, refreshed automatically in the background. Powered by Open-Meteo.</p>
+  </div>
+  <div class="card">
+    <span class="emoji">🔒</span>
+    <h3>Private by design</h3>
+    <p>No accounts, no tracking, no data collection. Your photos never leave your device.</p>
+  </div>
+</section>
+
+<footer>
+  <div>
+    <a href="privacy.html">Privacy Policy</a> ·
+    <a href="terms.html">Terms of Use</a> ·
+    <a href="mailto:tech@clk.company">tech@clk.company</a>
+  </div>
+  <p class="brand">© 2026 CLK Company · Auri</p>
+</footer>
+
+</body>
+</html>
